@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site de Notícias</title>
+    <style>
+    /* Faz o HTML e o BODY ocuparem 100% da altura da tela */
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Transforma o body em um container Flexbox vertical */
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #f4f4f4;
+    }
+
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    nav { background: #444; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+
+    /* O 'flex: 1' faz o conteúdo principal esticar e ocupar o espaço vazio */
+    main { 
+        padding: 20px; 
+        max-width: 1000px; 
+        margin: auto; 
+        width: 100%; 
+        flex: 1; 
+    }
+
+    footer { 
+        text-align: center; 
+        padding: 20px; 
+        background: #ddd; 
+        width: 100%;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Portal TechNews</h1>
+    </header>
+
+    <nav>
+        <a href="{% url 'home' %}">Início</a>
+        <a href="/admin">Painel do Administrador</a>
+    </nav>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto ADS - TechNews</p>
+    </footer>
+</body>
+</html>

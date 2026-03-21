@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Últimas Matérias</h2>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        {% for noticia in noticias %} <!-- Loop para exibir cada notícia -->
+            <div style="background: white; border: 1px solid #ccc; padding: 15px; width: 300px;">
+                
+                {% if noticia.imagem %} <!-- Verifica se a notícia tem uma imagem -->
+                    <img src="{{ noticia.imagem.url }}" alt="{{ noticia.titulo }}" style="width: 100%; height: 150px; object-fit: cover;">
+                {% endif %} <!-- Fim da verificação de imagem -->
+
+                <p style="color: blue; font-size: 12px; font-weight: bold; text-uppercase;">
+                    {{ noticia.categoria.nome }}
+                </p>
+                
+                <h3>{{ noticia.titulo }}</h3>
+                <p>{{ noticia.resumo }}</p>
+                
+                <a href="{% url 'noticia_detalhe' noticia.pk %}">Ler notícia completa</a>
+            </div>
+        {% empty %} <!-- Caso não haja notícias, exibe uma mensagem -->
+            <p>Ainda não existem notícias cadastradas.</p>
+        {% endfor %} <!-- Fim do loop de notícias -->
+    </div>
+{% endblock %}
