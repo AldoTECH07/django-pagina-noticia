@@ -1,0 +1,40 @@
+[
+{
+  "model": "news.categoria",
+  "pk": 1,
+  "fields": {
+    "nome": "Tecnologia"
+  }
+},
+{
+  "model": "news.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Jogos"
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 1,
+  "fields": {
+    "titulo": "Demanda por IA pode causar falta de chips e armazenamento até 2030",
+    "resumo": "Empresas do setor afirmam que crescimento da inteligência artificial pressiona produção de memória e drives de dados",
+    "conteudo": "A crescente demanda por sistemas de inteligência artificial pode provocar escassez de chips de memória e também de componentes para armazenamento de dados até 2030, segundo executivos do setor de tecnologia ouvidos durante a conferência anual de desenvolvedores da Nvidia.\r\n\r\nNo início da semana, durante a conferência anual de desenvolvedores da Nvidia, o presidente do SK Group, Chey Tae-won, afirmou que a escassez de chips de memória de alta largura de banda pode durar até 2030, devido à forte demanda por sistemas de inteligência artificial.\r\n\r\nNovas ferramentas de software apoiadas em IA são capazes de analisar grandes volumes de dados, dos quais antes era difícil extrair valor comercial. Durante o evento, a Nvidia apresentou novas tecnologias com o objetivo de acelerar a transferência de dados entre unidades de armazenamento e chips de processamento.",
+    "imagem": "noticias/inteligencia_artificial.jpg",
+    "data_publicacao": "2026-03-20T23:20:56.383Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 2,
+  "fields": {
+    "titulo": "CD Projekt confirma que The Witcher 4 não ganhará novidades no The Game Awards deste ano",
+    "resumo": "Aguardado RPG da CD Projekt ficará de fora do evento deste ano.",
+    "conteudo": "A CD Projekt RED confirmou oficialmente que The Witcher 4 não marcará presença no The Game Awards 2025. O aguardado RPG, que entrou em produção completa há aproximadamente um ano, foi indicado na categoria “Jogo Mais Aguardado”, mas não trará novidades durante a premiação marcada para 11 de dezembro.\r\n\r\nMichał Nowakowski, co-CEO da desenvolvedora polonesa, utilizou sua conta no Twitter para agradecer aos fãs pelo apoio e confirmar a ausência de novos conteúdos no evento. “Não iremos trazer nenhum conteúdo novo para a TGA deste ano, mas estamos, como sempre, animados para assistir ao show e celebrar a grande noite desta incrível indústria junto com todos vocês”, destacou o executivo.\r\n\r\nThe Witcher 4 ganhou seu primeiro trailer cinematográfico durante a edição passada do The Game Awards, revelando Ciri como a nova protagonista da série. Desde então, o projeto tem avançado com uma equipe que agora conta com 447 desenvolvedores, um leve crescimento em comparação aos números anteriores.\r\n\r\nA CD Projekt RED já havia informado anteriormente que o RPG de mundo aberto não será lançado antes de 2027, o que explica a ausência de material promocional neste momento. A empresa tem trabalhado com diversas tecnologias avançadas para a construção do jogo, incluindo Unreal Engine Framework, MetaHuman, Smart Objects e Nanite Foliage.\r\n\r\nO estúdio polonês também anunciou recentemente a contratação de Karel Kolmann, antigo designer de jogo de Kingdom Come: Deliverance 2, como novo designer sênior de missões para The Witcher 4. Esta adição à equipe reforça o compromisso da desenvolvedora com a qualidade narrativa pela qual a franquia é conhecida.",
+    "imagem": "noticias/witcher-4-ciri-smiling.jpg",
+    "data_publicacao": "2026-03-21T17:49:00.765Z",
+    "categoria": 2
+  }
+}
+]
