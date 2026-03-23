@@ -1,6 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<form method="GET" action="">
+
+    <!-- aba de buscar -->
+    <input type="text" name="search" placeholder="Buscar notícia">
+
+    <!-- categoria pra selecionar -->
+    <select name="categoria">
+        <option value="">Todas categorias</option>
+        {% for c in categorias %}
+            <option value="{{ c.id }}">{{ c.nome }}</option>
+        {% endfor %}
+    </select>
+
+    <!-- ordem para selecionar -->
+    <select name="order">
+        <option value="">Ordenar</option>
+        <option value="recent">Mais recentes</option>
+        <option value="old">Mais antigas</option>
+    </select>
+
+    <button type="submit">Filtrar</button>
+
+</form>
     <h2>Matérias Recentes</h2>
 
     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
