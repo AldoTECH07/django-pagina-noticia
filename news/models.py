@@ -28,8 +28,7 @@ class Noticia(models.Model):
 
     data_publicacao = models.DateTimeField(auto_now_add=True, verbose_name='Postado em')
    
-    # Critério: Relacionamento simples (Chave Estrangeira)
-    # Se a categoria for deletada, as notícias dela também serão (on_delete=models.CASCADE)
+   
     categoria = models.ForeignKey(
         Categoria, 
         on_delete=models.CASCADE, 
