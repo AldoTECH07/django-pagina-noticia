@@ -4,14 +4,13 @@
     <h2>Matérias Recentes</h2>
 
     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-        {% for noticia in noticias %} <!-- Loop para exibir cada notícia -->
-            <div style="background: white; border: 1px solid #ccc; padding: 15px; width: 300px;">
+        
+        {% for noticia in noticias %} <div style="background: white; border: 1px solid #ccc; padding: 15px; width: 300px;">
                 
-                {% if noticia.imagem %} <!-- Verifica se a notícia tem uma imagem -->
-                    <img src="{{ noticia.imagem.url }}" alt="{{ noticia.titulo }}" style="width: 100%; height: 150px; object-fit: cover;">
-                {% endif %} <!-- Fim da verificação de imagem -->
+                {% if noticia.imagem %} <img src="{{ noticia.imagem.url }}" alt="{{ noticia.titulo }}" style="width: 100%; height: 150px; object-fit: cover;">
+                {% endif %}
 
-                <p style="color: blue; font-size: 12px; font-weight: bold; text-uppercase;">
+                <p style="color: blue; font-size: 12px; font-weight: bold; text-transform: uppercase;">
                     {{ noticia.categoria.nome }}
                 </p>
                 
@@ -20,8 +19,25 @@
                 
                 <a href="{% url 'noticia_detalhe' noticia.pk %}">Ler notícia completa</a>
             </div>
-        {% empty %} <!-- Caso não haja notícias, exibe uma mensagem -->
+        {% empty %} 
             <p>Ainda não existem notícias cadastradas.</p>
-        {% endfor %} <!-- Fim do loop de notícias -->
+        {% endfor %} 
     </div>
+
+    {% if is_paginated %}
+    <div style="margin-top: 30px; text-align: center; padding: 20px;">
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}" style="text-decoration: none; padding: 10px; background: #007bff; color: white; border-radius: 5px;">« Anterior</a>
+        {% endif %}
+
+        <span style="margin: 0 15px; font-weight: bold;">
+            Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" style="text-decoration: none; padding: 10px; background: #007bff; color: white; border-radius: 5px;">Próximo »</a>
+        {% endif %}
+    </div>
+    {% endif %}
+
 {% endblock %}
