@@ -36,9 +36,77 @@
     "data_publicacao": "2026-03-21T17:49:00.765Z",
     "categoria": 2
   }
+},
+{
+  "model": "news.noticia",
+  "pk": 3,
+  "fields": {
+    "titulo": "Os segredos de Elden Ring - Shadow of the Erdtree!",
+    "resumo": "Maior expansão jamais efetuada pelo estúdio.",
+    "conteudo": "A tão aguardada expansão para Elden Ring, Shadow of the Erdtree, foi finalmente apresentada pela FromSoftware e será lançada a 21 de junho deste ano. Hidetaka Miyazaki, o patrão da FromSoftware, revelou ao Eurogamer que esta expansão é a maior que a empresa alguma vez realizou, e promete aos jogadores uma vasta aventura.\r\n\r\nRespondendo às especulações sobre o envolvimento de George R. R. Martin, Miyazaki esclareceu que o DLC é baseado em mitos existentes escritos por Martin para o jogo original. Ao contrário de algumas expectativas, Martin não contribuiu com material novo especificamente para a expansão. Em vez disso, Shadow of the Erdtree aprofunda a rica tradição estabelecida em Elden Ring, propondo aos jogadores uma nova experiência narrativa dentro do universo estabelecido.\r\n\r\nO desenvolvimento da expansão começou pouco depois da conclusão de Elden Ring, com a equipa a explorar ideias que não se enquadravam no jogo base mas que mereciam ser exploradas. Miyazaki deu a entender a magnitude dos conteúdos futuros, descrevendo-os como a \"maior expansão até à data em termos de volume global\".\r\n\r\nUm dos aspetos mais interessantes de Shadow of the Erdtree é a introdução de um novo mapa, com ambientes diversos que vão desde campos extensos a masmorras complexas. A FromSoftware aperfeiçoou a sua abordagem ao design de níveis, misturando perfeitamente áreas rurais e de masmorras para criar uma experiência de jogo mais envolvente e interligada.\r\n\r\nOs jogadores podem esperar encontrar mais de 10 novos bosses, cada um apresentando desafios únicos e oportunidades estratégicas. Para além disso, a expansão introduz oito novas categorias de armas, expandindo o arsenal disponível para os jogadores. Apesar da dificuldade acrescida frequentemente associada às expansões, Miyazaki assegurou que Shadow of the Erdtree oferecerá um nível de desafio comparável à fase final de Elden Ring, realçando a importância da liberdade do jogador na superação dos obstáculos.\r\n\r\nAlém disso, o DLC inclui um novo sistema de progressão adaptado ao cenário da expansão, que proporciona aos jogadores uma maior flexibilidade na sua abordagem à exploração e ao combate. O trailer mostra o envolvimento de Miquella, sugerindo uma narrativa estimulante centrada na sua jornada e no misterioso Realm of Shadow.\r\n\r\nNum sinal de respeito pela tradição, Miyazaki confirmou a inclusão de uma área pantanosa envenenada em Shadow of the Erdtree, admitindo o seu gosto por incorporar este perigo ambiental nos seus jogos. Apesar da familiaridade, Miyazaki expressou um sentimento de introspeção relativamente a este motivo recorrente, sugerindo um profundo significado temático por detrás da sua inclusão.\r\n\r\nEmbora a expansão pretenda oferecer uma grande quantidade de novos conteúdos e desafios, Miyazaki frisou que a filosofia central que orienta o desenvolvimento de jogos da FromSoftware permanece inalterada. A equipa continua empenhada em proporcionar experiências memoráveis que se identifiquem com os jogadores a um nível profundo, independentemente das tendências ou expectativas da indústria.\r\n\r\nAs ideias de Miyazaki revelam o processo criativo por detrás do mais recente projeto da FromSoftware, e reforçam a dedicação do estúdio em ultrapassar os limites da narrativa literária interativa e da capacidade de inovação da jogabilidade.",
+    "imagem": "noticias/noticia1.jpg",
+    "data_publicacao": "2026-03-26T20:49:45.669Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 4,
+  "fields": {
+    "titulo": "Android Multi Tool: perigos escondidos em ferramentas que driblam segurança",
+    "resumo": "Ferramentas não oficiais ganharam adeptos graças à facilidade de recuperar o sistema sem a necessidade de comandos complexos; veja perigos envolvidos",
+    "conteudo": "O Android Multi Tool é um tipo de programa de terceiros que reúne, em uma única interface, funções avançadas de manutenção e recuperação de celulares Android. Muito usado por quem busca soluções rápidas para problemas no sistema, ele promete executar tarefas como reset, desbloqueio e reparo sem a necessidade de comandos técnicos complexos. Apesar da praticidade, essas ferramentas escondem riscos importantes, que vão desde infecção por malware até danos irreversíveis ao aparelho. A seguir, veja perigos escondidos em ferramentas que driblam a segurança do celular.",
+    "imagem": "noticias/blog-nimboz-android.jpg",
+    "data_publicacao": "2026-03-26T20:53:58.915Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 5,
+  "fields": {
+    "titulo": "NASA lança IA que prevê erupções solares antes que aconteçam",
+    "resumo": "Modelo de IA foi desenvolvido em parceria com a IBM Research; novidade transforma a maneira como os cientistas estudam e preveem o comportamento do Sol para evitar apagões, desvios de voos e mais",
+    "conteudo": "Em 20 de agosto de 2026, a NASA em parceria com a IBM lançou um novo modelo de Inteligência Artificial de código aberto que pode prever tempestades solares com até duas horas de antecedência e, com isso, aprofundar o conhecimento sobre o clima solar e antecipar as erupções solares.\r\n\r\nA tecnologia, que recebeu o nome de Surya — Sol, em sânscrito —, foi treinada com nove anos de dados solares da NASA em alta resolução, feitos pelo Solar Dynamics Observatory (Observatório de Dinâmica Solar), da agência espacial americana.",
+    "imagem": "noticias/nasa.avif",
+    "data_publicacao": "2026-03-26T20:57:07.695Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 6,
+  "fields": {
+    "titulo": "Hades 2 recebe data de lançamento para PS5 e Xbox Series X|S",
+    "resumo": "Após meses de expectativa, Hades 2, um dos jogos mais premiados de 2025, finalmente teve sua chegada confirmada para os consoles PS5 e Xbox Series X|S. O título, que já estava disponível para Nintendo Switch, Switch 2 e PC desde seu lançamento inicial em setembro do ano passado, agora amplia seu alcance e passa a contemplar jogadores das plataformas da Sony e da Microsoft.",
+    "conteudo": "Após meses de expectativa, Hades 2, um dos jogos mais premiados de 2025, finalmente teve sua chegada confirmada para os consoles PS5 e Xbox Series X|S. O título, que já estava disponível para Nintendo Switch, Switch 2 e PC desde seu lançamento inicial em setembro do ano passado, agora amplia seu alcance e passa a contemplar jogadores das plataformas da Sony e da Microsoft.\r\n\r\nO anúncio foi feito durante a Xbox Partner Preview realizada nesta quarta-feira, 26 de março, marcando o fim de um período de exclusividade que gerou bastante repercussão entre jogadores de outras plataformas. A novidade reforça a estratégia de expansão do título, que rapidamente se consolidou como um dos grandes sucessos recentes da indústria.\r\n\r\nCom a confirmação de lançamento para PlayStation 5 e Xbox Series X|S, Hades 2 chega a um público ainda maior, fazendo a alegria dos fãs que aguardavam a chegada do game nas demais plataformas. A decisão de levar o jogo para novos consoles ocorre após seis meses de sua estreia, período em que o game acumulou prêmios e críticas extremamente positivas.\r\n\r\nO game também chegará ao Xbox Game Pass, permitindo que os assinantes do serviço nos consoles e PC experienciem a jornada de Melinoe no dia de seu lançamento.\r\n\r\nHades 2 chega no dia 14 de abril para PS5 e Xbox Series X|S. O game também estará disponível na mesma data para o Xbox e PC Game Pass.",
+    "imagem": "noticias/hadesii.jpg",
+    "data_publicacao": "2026-03-26T21:03:02.485Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 8,
+  "fields": {
+    "titulo": "Clair Obscur: Expedition 33 é eleito GOTY no The Game Awards",
+    "resumo": "RPG francês supera favoritos e consolida seu impacto como o grande destaque de 2025",
+    "conteudo": "Clair Obscur: Expedition 33 saiu do status de aposta promissora para se tornar o grande vencedor da noite no The Game Awards. O RPG francês, que chamou atenção desde os primeiros trailers pela estética surreal e combate estratégico, conquistou o prêmio de Jogo do Ano, superando concorrentes de peso e consolidando seu lugar entre os destaques de 2025.\r\n\r\nA vitória não chega exatamente como uma surpresa para quem acompanhou a recepção do jogo ao longo do ano. A combinação de direção de arte marcante, narrativa emocional e um sistema de batalhas acessível, algo que ressoou tanto com críticos quanto com jogadores.\r\n\r\nAntes mesmo da cerimônia, Clair Obscur já havia chamado atenção ao bater o recorde de indicações, com 13 no total. Agora, com nove estatuetas conquistadas, o jogo estabelece outro marco ao se tornar o título mais premiado da história do The Game Awards, superando The Last of Us Part II, detentor do recorde anterior com sete vitórias em 2020.\r\n\r\nO prêmio de Jogo do Ano também abre espaço para que uma parcela maior do público descubra Expedition 33. Além do GOTY, Clair Obscur: Expedition 33 levou outras categorias que ajudaram a consolidar sua presença no evento.\r\n\r\nA francesa Sandfall Interactive saiu como a grande vencedora da noite no The Game Awards, após ver seu RPG amplamente elogiado pela crítica levar o prêmio máximo do evento. O jogo também venceu em diversas categorias importantes, incluindo Melhor Jogo Indie, Melhor Estreia Indie, Direção de Arte, Trilha Sonora, RPG, Narrativa, Direção e Performance, esta última graças ao trabalho de Jennifer English.",
+    "imagem": "noticias/Clair_Obscur_Kk4BbUV.webp",
+    "data_publicacao": "2026-03-26T21:54:51.496Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "news.noticia",
+  "pk": 9,
+  "fields": {
+    "titulo": "pedro",
+    "resumo": "123",
+    "conteudo": "1232131243243412",
+    "imagem": "noticias/conselhos_ia.jpg",
+    "data_publicacao": "2026-03-26T22:03:24.907Z",
+    "categoria": 1
+  }
 }
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> e7f1a2b5ab3049a27e13891c1c18b257b5cc0c08
